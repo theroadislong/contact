@@ -1,0 +1,16 @@
+.about-me {
+  padding: 132px 0;
+  padding-left: 12px;
+}
+
+.about-me__wrapper {
+  max-width: 454px;
+  margin-left: 80px;
+}
+
+@media (max-width: 992px) {
+  .about-me__wrapper {
+    margin-left: 0;
+    text-align: center;
+  }
+}

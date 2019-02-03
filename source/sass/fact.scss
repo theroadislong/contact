@@ -1,0 +1,51 @@
+@media (max-width: 570px) {
+  .fact {
+    text-align: center;
+  }
+}
+
+.fact__ico {
+  display: inline-block;
+  min-height: 41px;
+  min-width: 44px;
+  margin-right: 24px;
+}
+
+.fact__description {
+  display: inline-block;
+  min-width: 170px;
+}
+
+.fact__number {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.5px;
+}
+
+.fact__category {
+  font-size: 12px;
+  line-height: 2.5;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.fact__ico {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fact--projects .fact__ico {
+  background-image: url('../img/ico-bag.png');
+}
+
+.fact--hours .fact__ico {
+  background-image: url('../img/ico-clock.png');
+}
+
+.fact--feedbacks .fact__ico {
+  background-image: url('../img/ico-star.png');
+}
+
+.fact--clients .fact__ico {
+  background-image: url('../img/ico-like.png');
+}
