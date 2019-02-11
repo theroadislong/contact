@@ -1,0 +1,27 @@
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+
+  &__item {
+    margin-right: 25px;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+
+  &__link {
+    font-size: 12px;
+    line-height: 2;
+    color: $black-color;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: $primary-font-stack;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+  }
+
+  &__link--active {
+    color: $accent-color;
+  }
+}

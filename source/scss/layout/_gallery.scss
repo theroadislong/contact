@@ -1,0 +1,21 @@
+.gallery__wrapper {
+  padding: 0;
+}
+
+.gallery__row {
+  margin: 0;
+}
+
+.gallery__col {
+  padding: 0;
+  min-width: 300px;
+  min-height: 300px;
+
+  &:nth-child(even) {
+    background-color: $gallery-bg-color-dark;
+  }
+
+  &:nth-child(odd) {
+    background-color: $gallery-bg-color-light;
+  }
+}

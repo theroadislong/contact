@@ -7,18 +7,17 @@ var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
 
-gulp.task("css", function () {
-  return gulp.src("source/sass/style.scss")
+gulp.task("css", function() {
+  return gulp
+    .src("source/scss/style.scss")
     .pipe(plumber())
     .pipe(sass())
-    .pipe(postcss([
-      autoprefixer()
-    ]))
+    .pipe(postcss([autoprefixer()]))
     .pipe(gulp.dest("source/css"))
     .pipe(server.stream());
 });
 
-gulp.task("server", function () {
+gulp.task("server", function() {
   server.init({
     server: "source/",
     notify: false,
@@ -27,7 +26,7 @@ gulp.task("server", function () {
     ui: false
   });
 
-  gulp.watch("source/sass/**/*.{scss,sass}", gulp.series("css"));
+  gulp.watch("source/scss/**/*.{scss,sass}", gulp.series("css"));
   gulp.watch("source/*.html").on("change", server.reload);
 });
 
