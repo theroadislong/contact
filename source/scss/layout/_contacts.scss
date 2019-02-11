@@ -1,0 +1,35 @@
+.contacts__wrapper {
+  padding: 90px 0;
+  justify-content: space-between;
+}
+
+.contact-list {
+  font-family: $secondary-font-stack;
+  letter-spacing: 0.2px;
+
+  &__item {
+    margin-bottom: 14px;
+  }
+
+  &__contact {
+    color: $section-text-color;
+    margin: 0;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $section-text-color;
+  }
+  
+  &__contact span {
+    font-weight: 700;
+    color: $contacts-dark-text;
+  }
+}
+
+
+@media (max-width: $width-medium-screen) {
+  .contact-list {
+    margin-bottom: 40px;
+  }
+}

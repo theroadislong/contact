@@ -7,7 +7,7 @@
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $primary-font-stack;
   letter-spacing: 0.3px;
 }
 
@@ -16,7 +16,7 @@
   margin-bottom: 26px;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Nunito Sans', sans-serif;
-  color: #787878;
+  font-family: $secondary-font-stack;
+  color: $section-text-color;
   letter-spacing: 0.08px;
 }

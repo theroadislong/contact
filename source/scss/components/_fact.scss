@@ -1,0 +1,65 @@
+.fact {
+  color: $white-color;
+  background-color: $accent-color;
+  font-family: $primary-font-stack;
+
+  &__ico {
+    display: inline-block;
+    min-height: 41px;
+    min-width: 44px;
+    margin-right: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__description {
+    display: inline-block;
+    min-width: 170px;
+  }
+
+  &__number {
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.5px;
+  }
+
+  &__category {
+    font-size: 12px;
+    line-height: 2.5;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+}
+
+.fact--projects .fact__ico {
+  background-image: url('../img/ico-bag.png');
+}
+
+.fact--hours .fact__ico {
+  background-image: url('../img/ico-clock.png');
+}
+
+.fact--feedbacks .fact__ico {
+  background-image: url('../img/ico-star.png');
+}
+
+.fact--clients .fact__ico {
+  background-image: url('../img/ico-like.png');
+}
+
+@media (max-width: $width-small-screen) {
+  .fact {
+    text-align: center;
+    margin-bottom: 30px;
+
+    &__ico {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    &__description {
+      display: block;
+    }
+  }
+}

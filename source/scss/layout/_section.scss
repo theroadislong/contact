@@ -4,7 +4,7 @@
 
 .section__heading {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $primary-font-stack;
   font-size: 38px;
   text-align: center;
   margin-bottom: 20px;
@@ -15,7 +15,7 @@
   max-width: 512px;
   font-size: 18px;
   line-height: 28px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: $secondary-font-stack;
   text-align: center;
-  color: #787878;
+  color: $section-text-color;
 }
