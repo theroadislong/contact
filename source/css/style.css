@@ -430,7 +430,7 @@ a {
   text-decoration: none; }
 
 .header {
-  padding: 10px 10px;
+  padding: 10px 20px;
   color: white;
   background-color: #004ece; }
 
@@ -444,3 +444,16 @@ a {
   display: block;
   padding: 20px 0;
   color: white; }
+
+.search__heading {
+  text-align: center; }
+
+.search__input-wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
+.search__input {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #004ece;
+  border-radius: 20px; }
