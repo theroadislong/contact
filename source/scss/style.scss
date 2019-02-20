@@ -2,52 +2,25 @@
 
 // 1. Configuration and helpers
 @import
-  'abstracts/variables',
-  'abstracts/functions',
-  'abstracts/mixins';
+  'abstracts/variables';
 
 // 2. Vendors
 @import
-  'vendors/normalize',
-  'vendors/bootstrap-grid';
+  'vendors/normalize';
 
 
 // 3. Base stuff
 @import
-  'base/base',
-  'base/fonts',
-  'base/typography',
-  'base/helpers';
+  'base/base';
 
 // 4. Layout-related sections
 @import
-  'layout/header',
-  'layout/section',
-  'layout/subsection',
-  'layout/about',
-  'layout/contacts',
-  'layout/statistics',
-  'layout/main',
-  'layout/cta',
-  'layout/home',
-  'layout/gallery',
-  'layout/map',
-  'layout/about-me',
-  'layout/footer';
+  'layout/header';
 
 // 5. Components
 @import
-  'components/button',
-  'components/form',
-  'components/fact',
-  'components/header-menu';
+  'components/nav';
 
 // 6. Page-specific styles
-@import
-  'pages/home',
-  'pages/about',
-  'pages/contact';
-
-// 7. Themes
-@import
-  'themes/default';
+// @import
+//   'pages/home';
